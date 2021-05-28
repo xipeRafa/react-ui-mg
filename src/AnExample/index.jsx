@@ -5,7 +5,7 @@ import './AnExample.css';
 
 const AnExample = ({ name }) => (
   <div className="an-example">
-    This is an example by
+    <p>This is an example by</p> 
     { name }
   </div>
 );
@@ -15,7 +15,7 @@ AnExample.propTypes = {
 };
 
 AnExample.defaultProps = {
-  name: 'jaebaebae',
+  name: ' Rafa',
 };
 
 export default AnExample;

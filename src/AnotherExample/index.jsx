@@ -5,7 +5,7 @@ import './AnotherExample.css';
 
 const AnotherExample = ({ name }) => (
   <div className="another-example">
-    This is another example by
+    <p>This is another example by</p>
     { name }
   </div>
 );
@@ -15,7 +15,7 @@ AnotherExample.propTypes = {
 };
 
 AnotherExample.defaultProps = {
-  name: 'jaebaebae',
+  name: 'michael ',
 };
 
 export default AnotherExample;
