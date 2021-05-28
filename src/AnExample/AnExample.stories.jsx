@@ -7,8 +7,8 @@ export default {
   component: AnExample,
 };
 
-const Template = (args) => <AnExample {...args} />;
+const Template = () => <AnExample />;
 
 export const BasicExample = Template.bind({});
-export const ExampleWithCustomName = Template.bind({});
-ExampleWithCustomName.args = { name: 'SomeOtherName' };
+/* export const ExampleWithCustomName = Template.bind({});
+ExampleWithCustomName.args = { name: 'SomeOtherName' }; */

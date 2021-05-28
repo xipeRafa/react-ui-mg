@@ -3,19 +3,16 @@ import PropTypes from 'prop-types';
 
 import './AnExample.css';
 
-const AnExample = ({ name }) => (
-  <div className="an-example">
-    <p>This is an example by</p> 
-    { name }
-  </div>
+const AnExample = ({ label }) => (
+  <input className='an-example' type="button" value={label} />
 );
 
 AnExample.propTypes = {
-  name: PropTypes.string,
+  label: PropTypes.string,
 };
 
 AnExample.defaultProps = {
-  name: ' Rafa',
+  label: ' Rafa-button',
 };
 
 export default AnExample;
